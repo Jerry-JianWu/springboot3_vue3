@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="843ade52-c20b-4e78-a02b-dfb47305eac6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itteach/controller/ArticleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/itteach/JwtTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itteach/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itteach/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/itteach/AppTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +97,39 @@
       <recent name="D:\java_projects\big-event\src\main\java\com\itteach\pojo" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.JwtTest.testParse">
+    <configuration name="JwtTest.testGen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="big-event" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itteach.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itteach" />
+      <option name="MAIN_CLASS_NAME" value="com.itteach.JwtTest" />
+      <option name="METHOD_NAME" value="testGen" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JwtTest.testParse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="big-event" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itteach.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itteach" />
+      <option name="MAIN_CLASS_NAME" value="com.itteach.JwtTest" />
+      <option name="METHOD_NAME" value="testParse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BigEventApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="big-event" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.itteach.BigEventApplication" />
@@ -110,6 +145,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JwtTest.testParse" />
+        <item itemvalue="JUnit.JwtTest.testGen" />
         <item itemvalue="Spring Boot.BigEventApplication" />
       </list>
     </recent_temporary>
@@ -125,7 +162,7 @@
       <workItem from="1724057428336" duration="5354000" />
       <workItem from="1724208402636" duration="1354000" />
       <workItem from="1724209772515" duration="60000" />
-      <workItem from="1724209859891" duration="13207000" />
+      <workItem from="1724209859891" duration="15048000" />
     </task>
     <servers />
   </component>
