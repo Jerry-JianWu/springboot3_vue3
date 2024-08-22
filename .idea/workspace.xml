@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="843ade52-c20b-4e78-a02b-dfb47305eac6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/itteach/controller/ArticleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/itteach/JwtTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itteach/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itteach/interceptors/LoginInterceptor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/itteach/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itteach/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itteach/controller/ArticleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itteach/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itteach/controller/UserController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +97,7 @@
       <recent name="D:\java_projects\big-event\src\main\java\com\itteach\pojo" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.JwtTest.testParse">
+  <component name="RunManager" selected="Spring Boot.BigEventApplication">
     <configuration name="JwtTest.testGen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="big-event" />
       <extension name="coverage">
@@ -145,9 +145,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.BigEventApplication" />
         <item itemvalue="JUnit.JwtTest.testParse" />
         <item itemvalue="JUnit.JwtTest.testGen" />
-        <item itemvalue="Spring Boot.BigEventApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +162,7 @@
       <workItem from="1724057428336" duration="5354000" />
       <workItem from="1724208402636" duration="1354000" />
       <workItem from="1724209772515" duration="60000" />
-      <workItem from="1724209859891" duration="15048000" />
+      <workItem from="1724209859891" duration="17365000" />
     </task>
     <servers />
   </component>
