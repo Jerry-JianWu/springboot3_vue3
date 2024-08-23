@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="843ade52-c20b-4e78-a02b-dfb47305eac6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/itteach/ThreadLocalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itteach/utils/ThreadLocalUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itteach/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itteach/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itteach/interceptors/LoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itteach/interceptors/LoginInterceptor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +178,7 @@
       <workItem from="1724057428336" duration="5354000" />
       <workItem from="1724208402636" duration="1354000" />
       <workItem from="1724209772515" duration="60000" />
-      <workItem from="1724209859891" duration="19925000" />
+      <workItem from="1724209859891" duration="20725000" />
     </task>
     <servers />
   </component>
