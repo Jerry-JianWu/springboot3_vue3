@@ -61,7 +61,6 @@ public class UserController {
         //根据用户名查询用户
         /*Map<String, Object> map = JwtUtil.parseToken(token);
         String username = (String) map.get("username");*/
-
         Map<String, Object> map = ThreadLocalUtil.get();
         String username = (String) map.get("username");
         User user = userService.findByUserName(username);
