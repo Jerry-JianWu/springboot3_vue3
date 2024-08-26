@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="843ade52-c20b-4e78-a02b-dfb47305eac6" name="Changes" comment="" />
+    <list default="true" id="843ade52-c20b-4e78-a02b-dfb47305eac6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itteach/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itteach/controller/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itteach/pojo/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itteach/pojo/Category.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -174,7 +178,7 @@
       <workItem from="1724208402636" duration="1354000" />
       <workItem from="1724209772515" duration="60000" />
       <workItem from="1724209859891" duration="31345000" />
-      <workItem from="1724656417530" duration="3810000" />
+      <workItem from="1724656417530" duration="6939000" />
     </task>
     <servers />
   </component>
