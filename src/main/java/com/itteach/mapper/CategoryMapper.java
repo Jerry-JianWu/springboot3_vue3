@@ -18,4 +18,8 @@ public interface CategoryMapper {
     // 查询所有文章
     @Select("select * from category where create_user=#{userId}")
     List<Category> list(Integer userId);
+
+    //  根据id查询
+    @Select("select * from category where id=#{id}")
+    Category findById(Integer id);
 }
