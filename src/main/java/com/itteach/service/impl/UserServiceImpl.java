@@ -44,4 +44,11 @@ public class UserServiceImpl implements UserService {
         userMapper.updateAvatar(avatarUrl, id);
     }
 
+    @Override
+    public void updatePwd(String newPwd) {
+        Map<String,Object> map =  ThreadLocalUtil.get();
+        Integer id = (Integer) map.get("id");
+        userMapper.updatePwd(Md5Util.getMD5String(newPwd), id);
+    }
+
 }
