@@ -1,10 +1,7 @@
 package com.itteach.mapper;
 
 import com.itteach.pojo.Category;
-import org.apache.ibatis.annotations.Insert;
-import org.apache.ibatis.annotations.Mapper;
-import org.apache.ibatis.annotations.Select;
-import org.apache.ibatis.annotations.Update;
+import org.apache.ibatis.annotations.*;
 
 import java.util.List;
 
@@ -28,4 +25,8 @@ public interface CategoryMapper {
     // 更新
     @Update("update category set category_name=#{categoryName}, category_alias=#{categoryAlias},update_time=#{updateTime} where id =#{id}")
     void update(Category category);
+
+    // 删除分类
+    @Delete("DELETE FROM category WHERE id = #{id}")
+    void delete(Integer id);
 }
