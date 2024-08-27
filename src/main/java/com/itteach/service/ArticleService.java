@@ -11,4 +11,7 @@ public interface ArticleService {
 
     // 文章列表分页
     PageBean<Article> list(Integer pageNum, Integer pageSize, Integer categoryId, String state);
+
+    // 获取文章信息
+    Article findById(Integer id);
 }

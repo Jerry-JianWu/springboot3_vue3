@@ -36,4 +36,10 @@ public class ArticleController {
         return Result.success(pb);
     }
 
+    @GetMapping("/detail")
+    public Result<Article> detail(Integer id){
+        Article article = articleService.findById(id);
+        return Result.success(article);
+    }
+
 }

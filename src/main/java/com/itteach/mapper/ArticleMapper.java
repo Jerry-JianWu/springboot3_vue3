@@ -3,6 +3,7 @@ package com.itteach.mapper;
 import com.itteach.pojo.Article;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Select;
 
 import java.util.List;
 
@@ -16,4 +17,6 @@ public interface ArticleMapper {
     // 动态查询sql，使用映射配置文件
 
     List<Article> list(Integer userId, Integer categoryId, String state);
+    @Select("select * from article where id=#{id}")
+    Article findById(Integer id);
 }
