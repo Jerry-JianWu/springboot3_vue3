@@ -72,5 +72,10 @@ public class ArticalServiceImpl implements ArticleService {
 
     }
 
+    @Override
+    public void delete(Integer id) {
+        articleMapper.delete(id);
+    }
+
 
 }

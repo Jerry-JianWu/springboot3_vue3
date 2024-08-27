@@ -1,10 +1,7 @@
 package com.itteach.mapper;
 
 import com.itteach.pojo.Article;
-import org.apache.ibatis.annotations.Insert;
-import org.apache.ibatis.annotations.Mapper;
-import org.apache.ibatis.annotations.Select;
-import org.apache.ibatis.annotations.Update;
+import org.apache.ibatis.annotations.*;
 
 import java.util.List;
 
@@ -23,4 +20,7 @@ public interface ArticleMapper {
 
     @Update("update article set title=#{title}, content=#{content}, cover_img=#{coverImg},state=#{state},category_id=#{categoryId} where id =#{id}")
     void update(Article article);
+
+    @Delete("delete from article where id=#{id}")
+    void delete(Integer id);
 }

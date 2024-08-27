@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="843ade52-c20b-4e78-a02b-dfb47305eac6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/itteach/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itteach/controller/ArticleController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/itteach/mapper/ArticleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itteach/mapper/ArticleMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itteach/pojo/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itteach/pojo/Article.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/itteach/service/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itteach/service/ArticleService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/itteach/service/impl/ArticalServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itteach/service/impl/ArticalServiceImpl.java" afterDir="false" />
     </list>
@@ -182,7 +180,7 @@
       <workItem from="1724208402636" duration="1354000" />
       <workItem from="1724209772515" duration="60000" />
       <workItem from="1724209859891" duration="31345000" />
-      <workItem from="1724656417530" duration="18967000" />
+      <workItem from="1724656417530" duration="19279000" />
     </task>
     <servers />
   </component>

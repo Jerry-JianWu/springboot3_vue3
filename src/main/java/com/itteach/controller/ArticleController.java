@@ -6,6 +6,7 @@ import com.itteach.pojo.Result;
 import com.itteach.service.ArticleService;
 import com.itteach.utils.JwtUtil;
 import jakarta.servlet.http.HttpServletResponse;
+import org.apache.ibatis.annotations.Delete;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
@@ -45,6 +46,11 @@ public class ArticleController {
     @PutMapping
     public Result update(@RequestBody @Validated(Article.Update.class) Article article){
         articleService.update(article);
+        return Result.success();
+    }
+    @DeleteMapping
+    public Result delete(Integer id){
+        articleService.delete(id);
         return Result.success();
     }
 }
